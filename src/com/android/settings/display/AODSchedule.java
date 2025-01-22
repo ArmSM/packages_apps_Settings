@@ -62,7 +62,7 @@ public class AODSchedule extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EVOLVER;
+        return MetricsProto.MetricsEvent.SAKURA_SETTINGS;
     }
 
     @Override

@@ -21,14 +21,14 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="org.evolution.settings.EvolutionSettings"
-        android:icon="@drawable/ic_settings_evolution"
-        android:key="top_level_evolver"
+        android:fragment="org.sakura.settings.SakuraSettings"
+        android:icon="@drawable/ic_settings_sakura"
+        android:key="top_level_sakura_settings"
         android:order="-160"
-        android:title="@string/evolver_dashboard_title"
-        android:summary="@string/evolver_dashboard_summary"
-        settings:highlightableMenuKey="@string/menu_key_evolver"
-        settings:controller="org.evolution.settings.TopLevelEvolutionSettingsPreferenceController"/>
+        android:title="@string/sakura_settings_dashboard_title"
+        android:summary="@string/sakura_settings_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_sakura_settings"
+        settings:controller="org.sakura.settings.TopLevelSakuraSettingsPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"

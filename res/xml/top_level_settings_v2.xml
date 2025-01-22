@@ -28,18 +28,18 @@
 
     <PreferenceCategory
         android:order="-140"
-        android:key="top_level_evolution_category"
+        android:key="top_level_sakura_category"
         android:layout="@layout/settingslib_preference_category_no_title">
 
         <com.android.settings.widget.HomepagePreference
-            android:fragment="org.evolution.settings.EvolutionSettings"
-            android:icon="@drawable/ic_settings_evolution_filled"
-            android:key="top_level_evolver"
+            android:fragment="org.sakura.settings.SakuraSettings"
+            android:icon="@drawable/ic_settings_sakura_filled"
+            android:key="top_level_sakura_settings"
             android:order="-160"
-            android:title="@string/evolver_dashboard_title"
-            android:summary="@string/evolver_dashboard_summary"
-            settings:highlightableMenuKey="@string/menu_key_evolver"
-            settings:controller="org.evolution.settings.TopLevelEvolutionSettingsPreferenceController"/>
+            android:title="@string/sakura_settings_dashboard_title"
+            android:summary="@string/sakura_settings_dashboard_summary"
+            settings:highlightableMenuKey="@string/menu_key_sakura_settings"
+            settings:controller="org.sakura.settings.TopLevelSakuraSettingsPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
